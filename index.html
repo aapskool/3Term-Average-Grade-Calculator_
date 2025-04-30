@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Grid</title>
+    
+</head>
+
+<link rel="stylesheet" href="./css/style.css">
+
+<body>
+    <div class="scroll-container" id="scrollContainer">
+        <div class="wide-content">
+    <h1 id="output">Annual Result<br>Grade Calculator</h1>
+    <div class="grid-container">
+        <!-- First row with headings -->
+        <div class="grid-item"><h3>Term</h3></div>
+        <div class="grid-item"><h3>FA</h3></div>
+        <div class="grid-item"><h3>SA</h3></div>
+        <div class="grid-item"><H3>Total</H3></div>
+        <div class="grid-item"><H3>Grade</H3></div>
+        
+        <!-- first term row with inputs -->
+        <div class="grid-item"><h3>I</h3></div>
+        <div class="grid-item"><input type="number" id="t1fa" placeholder="FA"></div>
+        <div class="grid-item"><input type="number" id="t1sa" placeholder="SA"></div>
+        <div class="grid-item"><h3 id="t1total"></h3></div>
+        <div class="grid-item"><h3 id="t1grade"></h3></div>
+
+
+<!-- Second term row with inputs -->
+        <div class="grid-item"><h3>II</h3></div>
+        <div class="grid-item"><input type="number" id="t2fa" placeholder="FA"></div>
+        <div class="grid-item"><input type="number" id="t2sa"placeholder="SA"></div>
+        <div class="grid-item"><h3 id="t2total"></h3></div>
+        <div class="grid-item"><h3 id="t2grade"></h3></div>
+     
+
+
+<!-- third term row with inputs -->
+        <div class="grid-item"><h3>III</h3></div>                          
+        <div class="grid-item"><input type="number" id="t3fa" placeholder="FA"></div>
+        <div class="grid-item"><input type="number" id="t3sa" placeholder="SA"></div>
+        <div class="grid-item"><h3 id="t3total"></h3></div>
+        <div class="grid-item"><h3 id="t3grade"></h3></div>
+  
+
+
+
+
+        
+        <!-- total of three term  rows  -->
+        <div class="grid-item"><H3>Total</H3></div>
+        <div class="grid-item"><h3 id="fatotal"></h3></div>
+        <div class="grid-item"><h3 id="satotal"></h3></div>
+        <div class="grid-item"><h3 id="totaltotal"></h3></div>
+        <div class="grid-item"></div>
+
+
+
+
+        <!-- average of three term  row-->
+
+
+        <div class="grid-item"><H3>Average</H3></div>
+        <div class="grid-item"><h3 id="faaverage"></h3></div>
+        <div class="grid-item"><h3 id="saaverage"></h3></div>
+        <div class="grid-item"><h3 id="totalaverage"></h3></div>
+        <div class="grid-item"></div>
+        <!-- grade for average  of three term  rows to make it 5x5 -->
+
+
+        <div class="grid-item"><H3>Average<br>Grade</H3></div>
+        <div class="grid-item"><h3 id="faaveragegrade"></h3></div>
+        <div class="grid-item"><h3 id="saaveragegrade"></h3></div>
+        <div class="grid-item"><h3 id="totalaveragegrade"></h3></div>
+        <div class="grid-item"></div>
+    </div>
+</div>
+</div>
+    <button id="calculateBtn" onclick="calculateAverage()">Calculate Average</button>
+    <button id="clearBtn" onclick="clearFields()">Clear</button>
+    <script src="script.js"></script>
+
+</body>
+</html>

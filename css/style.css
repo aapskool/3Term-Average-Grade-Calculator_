@@ -8,8 +8,8 @@
      /*   .grid-container {
             display: grid;
             grid-template-columns: repeat(5, 1fr);
-            gap: 5px;
-            width: 90%;
+            gap: 10px;
+            width: 80%;
             margin: 0 auto;
         }*/
 
@@ -19,8 +19,8 @@
              grid-template-columns: repeat(7, 1fr);
              grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
              /* Term column wider, others narrower */
-              gap: 5px;
-              width: 90%;
+              gap: 10px;
+              width: 80%;
               margin: 0 auto;
         }
         

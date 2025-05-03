@@ -120,6 +120,7 @@
         input:focus {
             outline: none;
             border-color: #4CAF50;
+            padding: 10px;
             
         }
 
